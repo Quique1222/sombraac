@@ -1,0 +1,11 @@
+#-------------------ADD THAT TO YOUR SERVER.CFG------------------#
+#-----------------WORK WITH STEAM ID OR DISCORD ID---------------#
+
+add_ace SombraSB-ACadministrator SombraSB-ACadmin allow
+add_ace SombraSB-ACmoderator SombraSB-ACmod allow
+
+add_principal identifier.steam: SombraSB-ACadmin --[ESP]Para Sacar el menu un admin
+add_principal identifier.steam: SombraSB-ACmod --[ESP]Para Sacar el menu un Mod
+
+
+#------------FOR OPPEN ADMIN MENU PRESS INSERT (INS)--------------#
